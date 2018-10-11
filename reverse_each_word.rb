@@ -1,6 +1,6 @@
 def reverse_each_word(text)
-  text.
+  text.spit(" ")
   text_array.collect do |text|
-    text.reverse 
+    text.reverse.join(" ") 
   end 
 end 
